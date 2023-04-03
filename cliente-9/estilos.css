@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(180deg, #393C5D 0%, rgba(57, 60, 93, 0) 100%);
+    min-height: 100vh;
+}
+
+
+.info {
+  
+  background-color: white;
+  text-align: center;
+ margin-left: 5%;
+ margin-right: 5%;
+margin-top: 1%;
+ margin-bottom: 15%;}
+
+ .data  {
+  background-color:white ;
+  height: 32px;
+  margin-top: 3%;
+  margin-bottom: 5%;
+ }
+ .ico {
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: stretch;
+align-content: flex-start;
+  color: gray;
+}
+
+.button-deli {
+  background-color: #5CCB9A;
+
+  padding-top: 3%;
+}
+.button-retiro{
+  background-color:  #C7EDED;
+  
+  padding-top: 3%;
+}
+
+.conteiner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.input-container i {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.input {
+ width: 250px;
+ padding: 15px 15px 15px 58px;
+ font-size: 16px;
+ margin-left: 18px;
+ background-color: #5CCB9A;
+ margin-top: 5%;
+}
+

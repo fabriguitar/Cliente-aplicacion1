@@ -1,0 +1,75 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.principal{
+    width:100vw;
+    height:100vh; 
+    background: url(img/fondo.jpeg) no-repeat center center fixed;
+    background-color:#555772;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-prueba{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between ;
+	align-items: center;
+	align-content: stretch;
+   
+}
+#thunder-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    background-color: #A2A4A4;
+    width: 40%;
+    margin: 11rem;
+    height: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.icono-salir{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: stretch;
+}
+.boton{
+  
+width: 121px;
+height: 28px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 28px;
+
+display: flex;
+
+align-items: center;
+justify-content: center;
+color: #4C33E7;
+
+
+
+}
